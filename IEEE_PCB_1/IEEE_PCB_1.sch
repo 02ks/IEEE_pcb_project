@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "PCB_Ornament"
 Date "2022-08-02"
-Rev "2"
+Rev "3"
 Comp "IEEE"
 Comment1 ""
 Comment2 ""
