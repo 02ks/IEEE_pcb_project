@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source C:\Users\zmtom\OneDrive\Documents\GitHub\IEEE_pcb_project\IEEE_PCB_1\IEEE_PCB_1.sch)
-    (date "8/11/2022 9:46:43 PM")
+    (date "8/12/2022 8:28:51 PM")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title PCB_Ornament)
         (company IEEE)
-        (rev 3)
-        (date 2022-08-02)
+        (rev 4)
+        (date 2022-08-11)
         (source IEEE_PCB_1.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
