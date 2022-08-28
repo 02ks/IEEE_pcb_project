@@ -47,17 +47,6 @@ F 3 "" H 8250 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IEEE_PCB_Ornament:EG1218 U3
-U 1 1 62F9767B
-P 9250 4400
-F 0 "U3" V 9204 4022 50  0000 R CNN
-F 1 "EG1218" V 9295 4022 50  0000 R CNN
-F 2 "" H 9250 4500 50  0001 C CNN
-F 3 "" H 9250 4500 50  0001 C CNN
-	1    9250 4400
-	0    -1   1    0   
-$EndComp
-$Comp
 L IEEE_PCB_Ornament:EG1218 U4
 U 1 1 62F9834E
 P 8900 5150
@@ -253,25 +242,6 @@ Wire Wire Line
 	9000 5450 9000 5600
 Connection ~ 9000 5450
 $Comp
-L power:+3.3V #PWR0107
-U 1 1 62FB176C
-P 9550 4000
-F 0 "#PWR0107" H 9550 3850 50  0001 C CNN
-F 1 "+3.3V" H 9565 4173 50  0000 C CNN
-F 2 "" H 9550 4000 50  0001 C CNN
-F 3 "" H 9550 4000 50  0001 C CNN
-	1    9550 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 4000 9550 4100
-Text GLabel 9650 4850 2    50   Output ~ 0
-AllON
-Wire Wire Line
-	9550 4700 9550 4850
-Wire Wire Line
-	9550 4850 9650 4850
-$Comp
 L Device:LED D1
 U 1 1 62FB7653
 P 2000 2150
@@ -385,21 +355,13 @@ Wire Wire Line
 Wire Wire Line
 	3050 3650 3050 3050
 Wire Wire Line
-	3050 3050 2350 3050
-Wire Wire Line
 	3200 3750 3000 3750
 Wire Wire Line
 	3000 3750 3000 3350
 Wire Wire Line
-	3000 3350 2350 3350
-Wire Wire Line
 	3200 3850 2950 3850
 Wire Wire Line
 	2950 3850 2950 3650
-Wire Wire Line
-	2950 3650 2350 3650
-Wire Wire Line
-	3200 3950 2350 3950
 $Comp
 L power:GND #PWR0108
 U 1 1 62FCD820
@@ -509,95 +471,37 @@ Text GLabel 4200 3550 2    50   Input ~ 0
 Signal
 Wire Wire Line
 	3900 3550 4200 3550
-Text GLabel 2400 2050 2    50   Input ~ 0
-AllON
-Wire Wire Line
-	2150 2450 2350 2450
-Wire Wire Line
-	2150 2750 2350 2750
-Text GLabel 2400 2350 2    50   Input ~ 0
-AllON
-Text GLabel 2400 2650 2    50   Input ~ 0
-AllON
-Text GLabel 2400 2950 2    50   Input ~ 0
-AllON
-Text GLabel 2400 3250 2    50   Input ~ 0
-AllON
-Text GLabel 2400 3550 2    50   Input ~ 0
-AllON
-Text GLabel 2400 3850 2    50   Input ~ 0
-AllON
-Text GLabel 4200 4250 0    50   Input ~ 0
-AllON
-Text GLabel 4300 3850 0    50   Input ~ 0
-AllON
-Wire Wire Line
-	2400 2350 2350 2350
-Wire Wire Line
-	2350 2350 2350 2450
-Connection ~ 2350 2450
-Wire Wire Line
-	2350 2450 3150 2450
-Wire Wire Line
-	2150 2150 2350 2150
-Wire Wire Line
-	2400 2050 2350 2050
-Wire Wire Line
-	2350 2050 2350 2150
-Connection ~ 2350 2150
-Wire Wire Line
-	2350 2150 3200 2150
-Wire Wire Line
-	2400 2650 2350 2650
-Wire Wire Line
-	2350 2650 2350 2750
-Connection ~ 2350 2750
-Wire Wire Line
-	2350 2750 3100 2750
-Wire Wire Line
-	2400 2950 2350 2950
-Wire Wire Line
-	2350 2950 2350 3050
-Connection ~ 2350 3050
-Wire Wire Line
-	2350 3050 2150 3050
-Wire Wire Line
-	2400 3250 2350 3250
-Wire Wire Line
-	2350 3250 2350 3350
-Connection ~ 2350 3350
-Wire Wire Line
-	2350 3350 2150 3350
-Wire Wire Line
-	2400 3550 2350 3550
-Wire Wire Line
-	2350 3550 2350 3650
-Connection ~ 2350 3650
-Wire Wire Line
-	2350 3650 2150 3650
-Wire Wire Line
-	2400 3850 2350 3850
-Wire Wire Line
-	2350 3850 2350 3950
-Connection ~ 2350 3950
-Wire Wire Line
-	2350 3950 2150 3950
-Wire Wire Line
-	3900 3950 4350 3950
-Wire Wire Line
-	4300 3850 4350 3850
-Wire Wire Line
-	4350 3850 4350 3950
-Connection ~ 4350 3950
-Wire Wire Line
-	4350 3950 4400 3950
-Wire Wire Line
-	4200 4250 4300 4250
-Connection ~ 4300 4250
 Text Notes 550  650  0    100  ~ 0
 LED Circuit
 Text Notes 7150 650  0    100  ~ 0
 Clock Circuit
 Text Notes 7100 3550 0    100  ~ 0
 Power
+$Comp
+L power:+3V3 #PWR?
+U 1 1 630C63F7
+P 9200 4400
+F 0 "#PWR?" H 9200 4250 50  0001 C CNN
+F 1 "+3V3" H 9215 4573 50  0000 C CNN
+F 2 "" H 9200 4400 50  0001 C CNN
+F 3 "" H 9200 4400 50  0001 C CNN
+	1    9200 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2150 3200 2150
+Wire Wire Line
+	2150 2450 3150 2450
+Wire Wire Line
+	2150 2750 3100 2750
+Wire Wire Line
+	2150 3050 3050 3050
+Wire Wire Line
+	2150 3350 3000 3350
+Wire Wire Line
+	2150 3650 2950 3650
+Wire Wire Line
+	3200 3950 2150 3950
+Wire Wire Line
+	3900 3950 4400 3950
 $EndSCHEMATC
