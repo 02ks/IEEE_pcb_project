@@ -1,4 +1,4 @@
-19242390874886476
+19245716093343785
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51695,6 +51695,13 @@ IEEE_PCB_Ornament
 16
 16
 IEEE_PCB_Ornament
+CR2025TR
+
+
+0
+3
+2
+IEEE_PCB_Ornament
 CT6EP504
 
 
@@ -51710,6 +51717,13 @@ EG1218
 3
 IEEE_PCB_Ornament
 LED_SMD
+
+
+0
+2
+2
+IEEE_PCB_Ornament
+SDM20U40Q
 
 
 0
