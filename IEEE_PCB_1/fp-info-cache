@@ -1,4 +1,4 @@
-19229409517754496
+19242383053920398
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48768,6 +48768,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+Custom Components
+SOT-23-6
+
+
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -56251,6 +56258,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Logos
+IEEE Logo
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -59333,13 +59347,6 @@ CandyCane
 0
 OrnamentOutlines
 Snowflake
-
-
-0
-0
-0
-OrnamentOutlines
-decorball
 
 
 0
@@ -83096,3 +83103,52 @@ varistor SIOV
 0
 2
 2
+chg_prt_boost_liIon
+BAT_1043
+
+
+0
+2
+2
+chg_prt_boost_liIon
+BQ2970
+
+
+0
+6
+6
+chg_prt_boost_liIon
+BQ25302
+
+
+0
+17
+15
+chg_prt_boost_liIon
+IND_NR6045T100M
+
+
+0
+2
+2
+chg_prt_boost_liIon
+MOLEX_105450-0101
+
+
+0
+28
+28
+chg_prt_boost_liIon
+PA5001.102
+
+
+0
+2
+2
+chg_prt_boost_liIon
+TRANS_CSD16406Q3
+<b>8-SON</b> (Q3)<p>body 3.3 x 3.3 mm
+
+0
+8
+8
