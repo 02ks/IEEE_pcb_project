@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name IEEE_PCB_Ornament)(type KiCad)(uri ${KIPRJMOD}/IEEE_PCB_Ornament.pretty)(options "")(descr ""))
+  (lib (name IEEE_PCB_Ornament)(type KiCad)(uri C:/Users/zmtom/Documents/Github/IEEE_pcb_project/IEEE_PCB_1/IEEE_PCB_Ornament.pretty)(options "")(descr "")(disabled))
 )
