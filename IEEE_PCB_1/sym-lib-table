@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name IEEE_PCB_1-rescue)(type Legacy)(uri ${KIPRJMOD}/IEEE_PCB_1-rescue.lib)(options "")(descr ""))
+  (lib (name "IEEE_PCB_1-rescue")(type "KiCad")(uri "${KIPRJMOD}/IEEE_PCB_1-rescue.kicad_sym")(options "")(descr ""))
 )

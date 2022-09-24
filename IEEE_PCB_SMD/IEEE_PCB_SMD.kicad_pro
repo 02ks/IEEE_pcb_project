@@ -334,7 +334,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IEEE_PCB_1.kicad_pro",
+    "filename": "IEEE_PCB_SMD.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -366,7 +366,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "IEEE_PCB_1.net",
+      "netlist": "IEEE_PCB_SMD.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -394,7 +394,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -413,7 +413,7 @@
   },
   "sheets": [
     [
-      "40c7c89d-544f-43ab-bacb-ef5fde1cfacd",
+      "5e5c2256-1dce-43ca-8fb9-996e7e545056",
       ""
     ]
   ],

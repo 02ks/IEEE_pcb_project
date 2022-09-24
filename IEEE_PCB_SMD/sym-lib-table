@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "IEEE_PCB_SMD-rescue")(type "Legacy")(uri "${KIPRJMOD}/IEEE_PCB_SMD-rescue.lib")(options "")(descr ""))
+)
