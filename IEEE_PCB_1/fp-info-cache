@@ -1,4 +1,4 @@
-20404880998421374
+20411532714684466
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53137,6 +53137,13 @@ EG1218
 3
 3
 IEEE_Ornament
+IN-S63AT
+
+
+0
+2
+2
+IEEE_Ornament
 LED_SMD
 
 
@@ -53150,6 +53157,13 @@ SDM20U40Q
 0
 2
 2
+IEEE_Ornament
+TEST
+
+
+0
+0
+0
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -86106,3 +86120,17 @@ varistor SIOV
 0
 2
 2
+custom parts
+IEEE Logo
+
+
+0
+0
+0
+custom parts
+UCSB_IEEE_Logo
+
+
+0
+0
+0

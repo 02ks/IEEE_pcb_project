@@ -1196,7 +1196,7 @@
     (property "Value" "1k" (id 1) (at 253.1872 44.323 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (id 2) (at 251.46 43.18 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 251.46 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 251.46 43.18 0)
@@ -1503,7 +1503,7 @@
   (symbol (lib_id "IEEE_PCB_SMD-rescue:+3.3V-power") (at 224.79 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c30cd767-325c-4d2b-a5ac-695b260f4bf4)
-    (property "Reference" "#PWR?" (id 0) (at 224.79 115.57 0)
+    (property "Reference" "#PWR0107" (id 0) (at 224.79 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 225.171 107.3658 0))
@@ -1539,6 +1539,9 @@
     (path "/00000000-0000-0000-0000-000062fb0b39"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c30cd767-325c-4d2b-a5ac-695b260f4bf4"
+      (reference "#PWR0107") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000063187633"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
@@ -1547,9 +1550,6 @@
     )
     (path "/00000000-0000-0000-0000-000062fe94c8"
       (reference "#PWR0110") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/c30cd767-325c-4d2b-a5ac-695b260f4bf4"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062f9d4fb"
       (reference "C1") (unit 1) (value "0.01 uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
@@ -1585,7 +1585,7 @@
       (reference "D9") (unit 1) (value "RED") (footprint "IEEE_Ornament:IN-S63AT")
     )
     (path "/00000000-0000-0000-0000-000062fa117c"
-      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062f9fcbf"
       (reference "RV1") (unit 1) (value "50K") (footprint "IEEE_Ornament:CT6EP504")
