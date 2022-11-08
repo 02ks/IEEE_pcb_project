@@ -1,4 +1,4 @@
-20394902693472642
+20401545463688755
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53136,6 +53136,34 @@ LED_SMD
 0
 2
 2
+IEEEOrnamentOutlines
+BallOrnament
+
+
+0
+0
+0
+IEEEOrnamentOutlines
+CandyCane
+
+
+0
+0
+0
+IEEEOrnamentOutlines
+Snowflake
+
+
+0
+0
+0
+IEEEOrnamentOutlines
+decorball
+
+
+0
+0
+0
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
